@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- link bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <!-- link javascript bootstrap-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <!-- link css-->
+    <link rel="stylesheet" href="../css/main.css">
+    <title>Collares</title>
+</head>
+<body>
+<div class="container">
+        <!-- menu navegación--> 
+     <header>
+      
+        <nav>
+            <ul class="row p-3">
+                <li class="col"><img src="../images/logo.jpg" height="30px" alt="logotipo empresa leon"></li>
+                <li class="col"><a href="../index.html">Tienda</a></li>
+                <li class="col"><a href="pages/collares.html">Collares</a></li>
+                <li class="col"><a href="pages/aros.html">Aros</a></li>
+                <li class="col"><a href="pages/anillos.html">Anillos</a></li>
+                <li class="col"><a href="pages/pulseras.html">Pulseras</a></li>
+                <li class="col"><a href="pages/contacto.html">Contacto</a></li>
+                <li class="col"><input type="text" placeholder="Buscar"></li>
+            </ul>
+        </nav>
+     </header>
+     <!-- cierro menu navegación -->
+    <!-- Lista de productos-->
+    <div class="row p-2" id="productos">
+        <div class="col d-flex justify-content-end" >
+            <select name="order">
+                <option value="precioMenor">Menor Precio</option>
+                <option value="precioMayor">Mayor Precio</option>
+                <option value="relevancia">Mas Buscados</option>
+            </select>
+        </div>
+    <div class="row d-flex align-items-center p-2">
+        <div class="col d-flex flex-column align-items-center">
+            <h3 >Producto 1</h3>
+            <img src="../images/collar 2.jpg" alt="collar de plata y oro">
+            <h4 class="h6">Producto 1 Precio: $500 Stock: 3</h4>
+         </div>
+        <div class="col d-flex flex-column align-items-center">
+            <h3>Producto 2</h3>
+            <img src="../images/collares.jpg" alt="cadenas de oro">
+            <h4 class="h6">Producto 2 Precio: $600 Stock: 2</h4>
+        </div>
+    </div>
+    <div class="row align-items-center p-2">
+            <div class="col d-flex flex-column align-items-center">
+                <h3>Producto 3</h3>
+                <img src="../images/collar 2.jpg" alt="collar de plata y oro">
+                <h4 class="h6">Producto 3 Precio: $700 Stock: 5</h4>
+            </div>
+            <div class="col d-flex flex-column align-items-center">
+                <h3>Producto 4</h3>
+                <img src="../images/collares.jpg" alt="cadenas de oro">
+                <h4 class="h6">Producto 4 Precio: $800 Stock: 1</h4>
+            </div>
+    </div>
+        <div class="row align-items-center p-2">
+            <div class="col d-flex flex-column align-items-center">
+                <h3>Producto 5</h3>
+                <img src="../images/collar 2.jpg" alt="collar de plata y oro">
+                <h4 class="h6">Producto 5 Precio: $700 Stock: 5</h4>
+            </div>
+            <div class="col d-flex flex-column align-items-center">
+                <h3>Producto 6</h3>
+                <img src="../images/collares.jpg" alt="cadenas de oro">
+                <h4 class="h6">Producto 6 Precio: $800 Stock: 1</h4>
+            </div>
+        </div>
+        
+    </div>
+</div>
+
+<!-- inicio de footer --> 
+<footer class="row">
+           
+    <a class="col d-flex justify-content-end" href="https://www.instagram.com/berbegue/"><img src="../images/instagram.png" alt=""></a>
+    <a class="col d-flex justify-content-start" href="https://www.facebook.com/ber.beguealiaga"><img src="../images/facebook.png" alt=""></a>
+
+    <h3 class="text-center h6">Copyright &copy; 2022 Tienda de Joyas - Todos los derechos reservados</h3>
+</footer>
+<!-- cierre footer-->
+</div>
+
+</body>
+</html>

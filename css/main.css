@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#b1 img{
+    width: 20px;
+    height: 20px;
+}
+#b2 img{
+    width: 20px;
+    height: 20px;
+}
+li{
+    list-style: none;
+}
+#subMenu img{
+    width: 10rem;
+    height: 10rem;
+}
+#ultIngresos img{
+    width: 15rem;
+    height: 15rem;
+}
+#b12 img{
+    width: 20px;
+    height: 20px;
+}
+#b22 img{
+    width: 20px;
+    height: 20px;
+}
+footer img{
+    width: 20px;
+    height: 20px;
+}
+#productos img{
+    width: 15rem;
+    height: 15rem;
+}
+
